@@ -7,6 +7,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
       />
+      <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
       <div class="container">
@@ -15,6 +16,11 @@
               <h1>Payment Form Example </h1>
           </div>
           <div class="border">
+            <div class="row">
+              <div class="col-12 bg-danger text-white">
+                <p>Some fields are missing</p>
+              </div>
+            </div>
             <div class="row">
               <div class="col-sm">
                 <label>Card #</label>
@@ -63,8 +69,8 @@
               </div>
             </div>
           <div class="border">
-            <button type="button" class="btn btn-secondary">Secondary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Cancel</button>
+            <button type="button" class="btn btn-primary">Send</button>
           </div>
       </div>
     </body>
